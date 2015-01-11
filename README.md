@@ -1,0 +1,2 @@
+# librust
+Various rust functions
