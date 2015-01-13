@@ -10,4 +10,8 @@ fn main() {
 		println!("");
 	}
 
+	for str in ["cat", "hat", "dog", "let"].iter() {
+        let x = librust::crc32::Crc32::crc_str(*str);
+        println!("{} -> {}", *str, x);
+    }
 }
